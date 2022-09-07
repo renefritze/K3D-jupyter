@@ -13,8 +13,8 @@ dependencies:
   # runtime dependencies
   - python >=3.8
   - jupyterlab >=3,<4.0.0a0
-  - ipywidgets==7.7.1 
-  - jupyterlab-widgets==1.1
+  - ipywidgets ==7.7.1 
+  - jupyterlab-widgets <2
   # labextension build dependencies
   - nodejs >=16,<17
   - pip
