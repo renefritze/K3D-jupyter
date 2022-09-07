@@ -1,0 +1,281 @@
+aiohttp @ file:///tmp/dependencies/aiohttp-3.8.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+aiosignal @ file:///tmp/dependencies/aiosignal-1.2.0-py3-none-any.whl
+alabaster==0.7.12
+anyio @ file:///tmp/dependencies/anyio-3.6.1-py3-none-any.whl
+appdirs @ file:///tmp/dependencies/appdirs-1.4.4-py2.py3-none-any.whl
+argon2-cffi @ file:///tmp/dependencies/argon2_cffi-21.3.0-py3-none-any.whl
+argon2-cffi-bindings @ file:///tmp/dependencies/argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+astroid @ file:///tmp/dependencies/astroid-2.12.5-py3-none-any.whl
+asttokens @ file:///tmp/dependencies/asttokens-2.0.8-py2.py3-none-any.whl
+async-timeout @ file:///tmp/dependencies/async_timeout-4.0.2-py3-none-any.whl
+atpublic==3.0.1
+attrs==22.1.0
+Babel==2.10.3
+backcall @ file:///tmp/dependencies/backcall-0.2.0-py2.py3-none-any.whl
+bash_kernel @ file:///tmp/dependencies/bash_kernel-0.8.0-py2.py3-none-any.whl
+beautifulsoup4 @ file:///tmp/dependencies/beautifulsoup4-4.11.1-py3-none-any.whl
+bleach @ file:///tmp/dependencies/bleach-5.0.1-py3-none-any.whl
+build @ file:///tmp/dependencies/build-0.8.0-py3-none-any.whl
+certifi==2022.6.15
+cffi @ file:///tmp/dependencies/cffi-1.15.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+charset-normalizer==2.1.1
+check-manifest @ file:///tmp/dependencies/check_manifest-0.48-py3-none-any.whl
+check-reqs @ file:///tmp/dependencies/check_reqs-0.2.0-py3-none-any.whl
+click @ file:///tmp/dependencies/click-7.1.2-py2.py3-none-any.whl
+cmake @ file:///tmp/dependencies/cmake-3.24.1-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+cmarkgfm @ file:///tmp/dependencies/cmarkgfm-0.8.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+codecov @ file:///tmp/dependencies/codecov-2.1.12-py2.py3-none-any.whl
+colorama @ file:///tmp/dependencies/colorama-0.4.5-py2.py3-none-any.whl
+colorcet @ file:///tmp/dependencies/colorcet-3.0.0-py2.py3-none-any.whl
+commonmark @ file:///tmp/dependencies/commonmark-0.9.1-py2.py3-none-any.whl
+coverage @ file:///tmp/dependencies/coverage-6.4.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+cryptography @ file:///tmp/dependencies/cryptography-37.0.4-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+css-html-js-minify @ file:///tmp/dependencies/css_html_js_minify-2.5.5-py2.py3-none-any.whl
+cycler==0.11.0
+Cython @ file:///tmp/dependencies/Cython-0.29.28-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl
+debugpy @ file:///tmp/dependencies/debugpy-1.6.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+decorator @ file:///tmp/dependencies/decorator-5.1.1-py3-none-any.whl
+defusedxml @ file:///tmp/dependencies/defusedxml-0.7.1-py2.py3-none-any.whl
+diskcache @ file:///tmp/dependencies/diskcache-5.4.0-py3-none-any.whl
+distlib @ file:///tmp/dependencies/distlib-0.3.6-py2.py3-none-any.whl
+distro @ file:///tmp/dependencies/distro-1.7.0-py3-none-any.whl
+docutils @ file:///tmp/dependencies/docutils-0.18.1-py2.py3-none-any.whl
+entrypoints @ file:///tmp/dependencies/entrypoints-0.4-py3-none-any.whl
+exceptiongroup @ file:///tmp/dependencies/exceptiongroup-1.0.0rc9-py3-none-any.whl
+execnet @ file:///tmp/dependencies/execnet-1.9.0-py2.py3-none-any.whl
+executing @ file:///tmp/dependencies/executing-1.0.0-py2.py3-none-any.whl
+fastjsonschema @ file:///tmp/dependencies/fastjsonschema-2.16.1-py3-none-any.whl
+fenics==2019.1.0
+fenics-dijitso==2019.1.0
+fenics-dolfin @ file:///tmp/dolfin/python
+fenics-ffc==2019.1.0.post0
+fenics-fiat==2019.1.0
+fenics-ufl==2019.1.0
+filelock @ file:///tmp/dependencies/filelock-3.8.0-py3-none-any.whl
+flake8 @ file:///tmp/dependencies/flake8-5.0.4-py2.py3-none-any.whl
+flake8-docstrings @ file:///tmp/dependencies/flake8_docstrings-1.6.0-py2.py3-none-any.whl
+flake8-rst-docstrings @ file:///tmp/dependencies/flake8_rst_docstrings-0.2.6-py3-none-any.whl
+flufl.lock==7.0
+fonttools @ file:///tmp/dependencies/fonttools-4.37.1-py3-none-any.whl
+frozenlist @ file:///tmp/dependencies/frozenlist-1.3.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+gitdb @ file:///tmp/dependencies/gitdb-4.0.9-py3-none-any.whl
+GitPython @ file:///tmp/dependencies/GitPython-3.1.27-py3-none-any.whl
+gmsh @ file:///tmp/dependencies/gmsh-4.8.4-py3-none-any.whl
+greenlet @ file:///tmp/dependencies/greenlet-1.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+hypothesis @ file:///tmp/dependencies/hypothesis-6.52.3-py3-none-any.whl
+icontract @ file:///tmp/dependencies/icontract-2.6.2-py3-none-any.whl
+idna==3.3
+imageio @ file:///tmp/dependencies/imageio-2.21.2-py3-none-any.whl
+imagesize==1.4.1
+importlib-metadata==4.12.0
+iniconfig==1.1.1
+ipydatawidgets @ file:///tmp/dependencies/ipydatawidgets-4.3.2-py2.py3-none-any.whl
+ipykernel @ file:///tmp/dependencies/ipykernel-6.15.2-py3-none-any.whl
+ipympl @ file:///tmp/dependencies/ipympl-0.9.2-py2.py3-none-any.whl
+ipyparallel @ file:///tmp/dependencies/ipyparallel-8.4.1-py3-none-any.whl
+ipython @ file:///tmp/dependencies/ipython-8.4.0-py3-none-any.whl
+ipython-genutils @ file:///tmp/dependencies/ipython_genutils-0.2.0-py2.py3-none-any.whl
+ipywidgets @ file:///tmp/dependencies/ipywidgets-7.7.2-py2.py3-none-any.whl
+itk-core @ file:///tmp/dependencies/itk_core-5.2.1.post1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+itk-filtering @ file:///tmp/dependencies/itk_filtering-5.2.1.post1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+itk-meshtopolydata @ file:///tmp/dependencies/itk_meshtopolydata-0.8.1-cp39-cp39-manylinux2014_x86_64.whl
+itk-numerics @ file:///tmp/dependencies/itk_numerics-5.2.1.post1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+itkwidgets @ file:///tmp/dependencies/itkwidgets-0.32.2-py2.py3-none-any.whl
+jaraco.classes @ file:///tmp/dependencies/jaraco.classes-3.2.2-py3-none-any.whl
+jedi @ file:///tmp/dependencies/jedi-0.18.1-py2.py3-none-any.whl
+jeepney @ file:///tmp/dependencies/jeepney-0.8.0-py3-none-any.whl
+Jinja2==3.1.2
+jsonschema @ file:///tmp/dependencies/jsonschema-4.15.0-py3-none-any.whl
+jupyter-cache @ file:///tmp/dependencies/jupyter_cache-0.5.0-py3-none-any.whl
+jupyter-contrib-core @ file:///tmp/dependencies/jupyter_contrib_core-0.4.0-py2.py3-none-any.whl
+jupyter-contrib-nbextensions @ file:///tmp/dependencies/jupyter_contrib_nbextensions-0.5.1-py2.py3-none-any.whl
+jupyter-core @ file:///tmp/dependencies/jupyter_core-4.11.1-py3-none-any.whl
+jupyter-highlight-selected-word @ file:///tmp/dependencies/jupyter_highlight_selected_word-0.2.0-py2.py3-none-any.whl
+jupyter-latex-envs @ file:///tmp/dependencies/jupyter_latex_envs-1.4.6.tar.gz
+jupyter-nbextensions-configurator @ file:///tmp/dependencies/jupyter_nbextensions_configurator-0.5.0-py2.py3-none-any.whl
+jupyter-server @ file:///tmp/dependencies/jupyter_server-1.18.1-py3-none-any.whl
+jupyter-server-mathjax @ file:///tmp/dependencies/jupyter_server_mathjax-0.2.6-py3-none-any.whl
+jupyter_client @ file:///tmp/dependencies/jupyter_client-7.3.5-py3-none-any.whl
+jupyterlab-pygments @ file:///tmp/dependencies/jupyterlab_pygments-0.2.2-py2.py3-none-any.whl
+jupyterlab-widgets @ file:///tmp/dependencies/jupyterlab_widgets-1.1.1-py3-none-any.whl
+jupytext @ file:///tmp/dependencies/jupytext-1.14.1-py3-none-any.whl
+k3d @ file:///tmp/dependencies/k3d-2.14.5-py2.py3-none-any.whl
+keyring @ file:///tmp/dependencies/keyring-23.9.0-py3-none-any.whl
+kiwisolver==1.4.4
+latexcodec @ file:///tmp/dependencies/latexcodec-2.0.1-py2.py3-none-any.whl
+lazy-object-proxy @ file:///tmp/dependencies/lazy_object_proxy-1.7.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+libcst @ file:///tmp/dependencies/libcst-0.4.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+lxml @ file:///tmp/dependencies/lxml-4.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl
+markdown-it-py @ file:///tmp/dependencies/markdown_it_py-2.1.0-py3-none-any.whl
+MarkupSafe==2.1.1
+matplotlib==3.5.3
+matplotlib-inline @ file:///tmp/dependencies/matplotlib_inline-0.1.6-py3-none-any.whl
+mccabe @ file:///tmp/dependencies/mccabe-0.7.0-py2.py3-none-any.whl
+mdit-py-plugins @ file:///tmp/dependencies/mdit_py_plugins-0.3.0-py3-none-any.whl
+mdurl @ file:///tmp/dependencies/mdurl-0.1.2-py3-none-any.whl
+meshio @ file:///tmp/dependencies/meshio-5.3.4-py3-none-any.whl
+mistune @ file:///tmp/dependencies/mistune-2.0.4-py2.py3-none-any.whl
+MonkeyType @ file:///tmp/dependencies/MonkeyType-22.2.0-py3-none-any.whl
+more-itertools @ file:///tmp/dependencies/more_itertools-8.14.0-py3-none-any.whl
+mpi4py @ file:///tmp/mpi4py-3.1.3-cp39-cp39-linux_x86_64.whl
+mpmath==1.2.1
+msgpack @ file:///tmp/dependencies/msgpack-1.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+mshr @ file:///tmp/mshr/python
+multidict @ file:///tmp/dependencies/multidict-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+mypy @ file:///tmp/dependencies/mypy-0.971-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+mypy-extensions @ file:///tmp/dependencies/mypy_extensions-0.4.3-py2.py3-none-any.whl
+myst-nb @ file:///tmp/dependencies/myst_nb-0.16.0-py3-none-any.whl
+myst-parser @ file:///tmp/dependencies/myst_parser-0.18.0-py3-none-any.whl
+nbclient @ file:///tmp/dependencies/nbclient-0.5.13-py3-none-any.whl
+nbconvert @ file:///tmp/dependencies/nbconvert-7.0.0-py3-none-any.whl
+nbdime @ file:///tmp/dependencies/nbdime-3.1.1-py2.py3-none-any.whl
+nbformat @ file:///tmp/dependencies/nbformat-5.4.0-py3-none-any.whl
+nbresuse @ file:///tmp/dependencies/nbresuse-0.4.0-py2.py3-none-any.whl
+nest-asyncio @ file:///tmp/dependencies/nest_asyncio-1.5.5-py3-none-any.whl
+notebook @ file:///tmp/dependencies/notebook-6.4.12-py3-none-any.whl
+numpy @ file:///tmp/dependencies/numpy-1.23.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+packaging==21.3
+pandas @ file:///tmp/dependencies/pandas-1.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+pandocfilters @ file:///tmp/dependencies/pandocfilters-1.5.0-py2.py3-none-any.whl
+param @ file:///tmp/dependencies/param-1.12.2-py2.py3-none-any.whl
+parso @ file:///tmp/dependencies/parso-0.8.3-py2.py3-none-any.whl
+pep517 @ file:///tmp/dependencies/pep517-0.13.0-py3-none-any.whl
+petsc4py @ file:///tmp/petsc4py-3.16.1-cp39-cp39-linux_x86_64.whl
+pexpect @ file:///tmp/dependencies/pexpect-4.8.0-py2.py3-none-any.whl
+pickleshare @ file:///tmp/dependencies/pickleshare-0.7.5-py2.py3-none-any.whl
+Pillow==9.2.0
+pkgconfig==1.5.5
+pkginfo @ file:///tmp/dependencies/pkginfo-1.8.3-py2.py3-none-any.whl
+platformdirs @ file:///tmp/dependencies/platformdirs-2.5.2-py3-none-any.whl
+pluggy==1.0.0
+ply==3.11
+prometheus-client @ file:///tmp/dependencies/prometheus_client-0.14.1-py3-none-any.whl
+prompt-toolkit @ file:///tmp/dependencies/prompt_toolkit-3.0.30-py3-none-any.whl
+psutil==5.9.1
+ptyprocess @ file:///tmp/dependencies/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure-eval @ file:///tmp/dependencies/pure_eval-0.2.2-py3-none-any.whl
+py==1.11.0
+pybind11 @ file:///tmp/dependencies/pybind11-2.9.2-py2.py3-none-any.whl
+pybind11-stubgen==0.10.5
+pybtex @ file:///tmp/dependencies/pybtex-0.24.0-py2.py3-none-any.whl
+pybtex-docutils @ file:///tmp/dependencies/pybtex_docutils-1.0.2-py3-none-any.whl
+pycodestyle @ file:///tmp/dependencies/pycodestyle-2.9.1-py2.py3-none-any.whl
+pycparser @ file:///tmp/dependencies/pycparser-2.21-py2.py3-none-any.whl
+pyct @ file:///tmp/dependencies/pyct-0.4.8-py2.py3-none-any.whl
+pydantic @ file:///tmp/dependencies/pydantic-1.10.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+pydocstyle @ file:///tmp/dependencies/pydocstyle-6.1.1-py3-none-any.whl
+pyevtk @ file:///tmp/dependencies/pyevtk-1.5.0-py3-none-any.whl
+pyflakes @ file:///tmp/dependencies/pyflakes-2.5.0-py2.py3-none-any.whl
+Pygments==2.13.0
+pyicontract-lint @ file:///tmp/dependencies/pyicontract-lint-2.1.4.tar.gz
+pymess @ file:///tmp/dependencies/pymess-1.0.0-cp39-cp39-manylinux2014_x86_64.whl
+pymor-dealii @ file:///usr/local/tmp/pymor_dealii-2022.1.1.post0.dev10-cp39-cp39-linux_x86_64.whl
+pymor-oldest-supported-numpy==2021.1.0
+PyOpenGL @ file:///tmp/dependencies/PyOpenGL-3.1.6-py3-none-any.whl
+pyparsing==3.0.9
+pypi-oldest-requirements @ file:///tmp/dependencies/pypi_oldest_requirements-2021.2.0-py2.py3-none-any.whl
+pyprecice==2.4.0.0
+PyQt5 @ file:///tmp/dependencies/PyQt5-5.15.7-cp37-abi3-manylinux1_x86_64.whl
+PyQt5-Qt5 @ file:///tmp/dependencies/PyQt5_Qt5-5.15.2-py3-none-manylinux2014_x86_64.whl
+PyQt5-sip @ file:///tmp/dependencies/PyQt5_sip-12.11.0-cp39-cp39-manylinux1_x86_64.whl
+pyrsistent @ file:///tmp/dependencies/pyrsistent-0.18.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+PySide2 @ file:///tmp/dependencies/PySide2-5.15.2.1-5.15.2-cp35.cp36.cp37.cp38.cp39.cp310-abi3-manylinux1_x86_64.whl
+pytest==7.1.2
+pytest-cov @ file:///tmp/dependencies/pytest_cov-3.0.0-py3-none-any.whl
+pytest-datadir @ file:///tmp/dependencies/pytest_datadir-1.3.1-py2.py3-none-any.whl
+pytest-forked @ file:///tmp/dependencies/pytest_forked-1.4.0-py3-none-any.whl
+pytest-memprof @ file:///tmp/dependencies/pytest-memprof-0.2.0.tar.gz
+pytest-parallel @ file:///tmp/dependencies/pytest_parallel-0.1.1-py3-none-any.whl
+pytest-pycharm @ file:///tmp/dependencies/pytest_pycharm-0.7.0-py3-none-any.whl
+pytest-regressions @ file:///tmp/dependencies/pytest_regressions-2.3.1-py3-none-any.whl
+pytest-runner @ file:///tmp/dependencies/pytest_runner-6.0.0-py3-none-any.whl
+pytest-xdist @ file:///tmp/dependencies/pytest_xdist-2.5.0-py3-none-any.whl
+pytest_notebook @ file:///tmp/dependencies/pytest_notebook-0.8.0-py2.py3-none-any.whl
+python-dateutil==2.8.2
+python-dotenv==0.20.0
+python-slugify @ file:///tmp/dependencies/python_slugify-6.1.2-py2.py3-none-any.whl
+pythreejs @ file:///tmp/dependencies/pythreejs-2.4.1-py3-none-any.whl
+pytimings @ file:///tmp/dependencies/pytimings-2022.2.0-py2.py3-none-any.whl
+pytz==2022.2.1
+pyvista @ file:///tmp/dependencies/pyvista-0.36.1-py3-none-any.whl
+PyYAML @ file:///tmp/dependencies/PyYAML-6.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+pyzmq @ file:///tmp/dependencies/pyzmq-23.2.1-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+QtPy @ file:///tmp/dependencies/QtPy-2.2.0-py3-none-any.whl
+readme-renderer @ file:///tmp/dependencies/readme_renderer-35.0-py3-none-any.whl
+requests==2.28.1
+requests-toolbelt @ file:///tmp/dependencies/requests_toolbelt-0.9.1-py2.py3-none-any.whl
+requirements-parser @ file:///tmp/dependencies/requirements_parser-0.5.0-py3-none-any.whl
+restructuredtext-lint @ file:///tmp/dependencies/restructuredtext_lint-1.4.0.tar.gz
+rfc3986 @ file:///tmp/dependencies/rfc3986-2.0.0-py2.py3-none-any.whl
+rich @ file:///tmp/dependencies/rich-10.16.2-py3-none-any.whl
+rstcheck @ file:///tmp/dependencies/rstcheck-6.0.0.post1-py3-none-any.whl
+rstcheck-core @ file:///tmp/dependencies/rstcheck_core-1.0.2-py3-none-any.whl
+scikit-build @ file:///tmp/dependencies/scikit_build-0.15.0-py2.py3-none-any.whl
+scikit-fem @ file:///tmp/dependencies/scikit_fem-6.0.0-py3-none-any.whl
+scipy @ file:///tmp/dependencies/scipy-1.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+scooby @ file:///tmp/dependencies/scooby-0.6.0-py3-none-any.whl
+SecretStorage @ file:///tmp/dependencies/SecretStorage-3.3.3-py3-none-any.whl
+Send2Trash @ file:///tmp/dependencies/Send2Trash-1.8.0-py3-none-any.whl
+shellingham @ file:///tmp/dependencies/shellingham-1.5.0-py2.py3-none-any.whl
+shiboken2 @ file:///tmp/dependencies/shiboken2-5.15.2.1-5.15.2-cp35.cp36.cp37.cp38.cp39.cp310-abi3-manylinux1_x86_64.whl
+six==1.16.0
+slycot @ file:///tmp/dependencies/slycot-0.5.0-cp39-cp39-linux_x86_64.whl
+smmap @ file:///tmp/dependencies/smmap-5.0.0-py3-none-any.whl
+sniffio @ file:///tmp/dependencies/sniffio-1.3.0-py3-none-any.whl
+snowballstemmer==2.2.0
+sortedcontainers @ file:///tmp/dependencies/sortedcontainers-2.4.0-py2.py3-none-any.whl
+soupsieve @ file:///tmp/dependencies/soupsieve-2.3.2.post1-py3-none-any.whl
+Sphinx==5.1.1
+sphinx-autoapi @ file:///tmp/dependencies/sphinx_autoapi-1.9.0-py2.py3-none-any.whl
+sphinx-autodoc-typehints @ file:///tmp/dependencies/sphinx_autodoc_typehints-1.19.2-py3-none-any.whl
+sphinx-icontract @ file:///tmp/dependencies/sphinx-icontract-2.0.3.tar.gz
+sphinx-material @ file:///tmp/dependencies/sphinx_material-0.0.35-py3-none-any.whl
+sphinx-qt-documentation @ file:///tmp/dependencies/sphinx_qt_documentation-0.4-py3-none-any.whl
+sphinx-rtd-theme==1.0.0
+sphinx-togglebutton @ file:///tmp/dependencies/sphinx_togglebutton-0.3.2-py3-none-any.whl
+sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-bibtex @ file:///tmp/dependencies/sphinxcontrib_bibtex-2.5.0-py3-none-any.whl
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
+SQLAlchemy @ file:///tmp/dependencies/SQLAlchemy-1.4.40-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+stack-data @ file:///tmp/dependencies/stack_data-0.5.0-py3-none-any.whl
+subprocess32==3.5.4
+sympy @ file:///tmp/dependencies/sympy-1.11.1-py3-none-any.whl
+tabulate @ file:///tmp/dependencies/tabulate-0.8.10-py3-none-any.whl
+tblib @ file:///tmp/dependencies/tblib-1.7.0-py2.py3-none-any.whl
+terminado @ file:///tmp/dependencies/terminado-0.15.0-py3-none-any.whl
+termtables==0.2.4
+text-unidecode @ file:///tmp/dependencies/text_unidecode-1.3-py2.py3-none-any.whl
+tinycss2 @ file:///tmp/dependencies/tinycss2-1.1.1-py3-none-any.whl
+toml @ file:///tmp/dependencies/toml-0.10.2-py2.py3-none-any.whl
+tomli==2.0.1
+torch @ file:///tmp/dependencies/torch-1.8.1%2Bcpu-cp39-cp39-linux_x86_64.whl
+torchaudio @ file:///tmp/dependencies/torchaudio-0.8.1-cp39-cp39-manylinux1_x86_64.whl
+torchvision @ file:///tmp/dependencies/torchvision-0.9.1%2Bcpu-cp39-cp39-linux_x86_64.whl
+tornado @ file:///tmp/dependencies/tornado-6.2-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+tqdm @ file:///tmp/dependencies/tqdm-4.64.0-py2.py3-none-any.whl
+traitlets @ file:///tmp/dependencies/traitlets-5.3.0-py3-none-any.whl
+traittypes @ file:///tmp/dependencies/traittypes-0.2.1-py2.py3-none-any.whl
+twine @ file:///tmp/dependencies/twine-3.8.0-py3-none-any.whl
+typer @ file:///tmp/dependencies/typer-0.4.2-py3-none-any.whl
+types-docutils @ file:///tmp/dependencies/types_docutils-0.18.3-py3-none-any.whl
+types-setuptools @ file:///tmp/dependencies/types_setuptools-65.3.0-py3-none-any.whl
+typing-inspect @ file:///tmp/dependencies/typing_inspect-0.8.0-py3-none-any.whl
+typing_extensions @ file:///tmp/dependencies/typing_extensions-4.3.0-py3-none-any.whl
+Unidecode @ file:///tmp/dependencies/Unidecode-1.3.4-py3-none-any.whl
+urllib3==1.26.12
+virtualenv @ file:///tmp/dependencies/virtualenv-20.16.4-py3-none-any.whl
+vtk @ file:///tmp/dependencies/vtk-9.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+wcwidth @ file:///tmp/dependencies/wcwidth-0.2.5-py2.py3-none-any.whl
+webencodings @ file:///tmp/dependencies/webencodings-0.5.1-py2.py3-none-any.whl
+websocket-client @ file:///tmp/dependencies/websocket_client-1.4.0-py3-none-any.whl
+widgetsnbextension @ file:///tmp/dependencies/widgetsnbextension-3.6.1-py2.py3-none-any.whl
+wrapt @ file:///tmp/dependencies/wrapt-1.14.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+wslink @ file:///tmp/dependencies/wslink-1.8.2-py3-none-any.whl
+xmljson @ file:///tmp/dependencies/xmljson-0.2.1-py2.py3-none-any.whl
+yarl @ file:///tmp/dependencies/yarl-1.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+zipp==3.8.1
+zstandard @ file:///tmp/dependencies/zstandard-0.18.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
