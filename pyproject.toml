@@ -123,3 +123,8 @@ npm = [
 ]
 
 
+[tool.pytest.ini_options]
+addopts = "--strict-markers"
+markers = [
+    "examples: example notebooks run as tests (deselect with '-m \"not examples\"')",
+]
