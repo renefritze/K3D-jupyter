@@ -13,16 +13,6 @@ import subprocess
 import os
 
 
-def pytest_configure(config):
-    """
-    Allows plugins and conftest files to perform initial configuration.
-    This hook is called for every plugin and initial conftest
-    file after command line options have been parsed.
-    """
-    process = subprocess.Popen('webpack', cwd=os.path.abspath('./../js/'), shell=True)
-    process.wait()
-
-
 def pytest_sessionstart(session):
     """
     Called after the Session object has been created and
