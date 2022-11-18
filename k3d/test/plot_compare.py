@@ -1,4 +1,6 @@
 import os
+from pathlib import Path
+
 import pytest
 import sys
 from PIL import Image
@@ -34,15 +36,19 @@ def compare(name, only_canvas=True, threshold=0.2, camera_factor=1.0):
     img_diff = Image.new("RGBA", result.size)
     reference = None
 
-    if os.path.isfile('./test/references/' + name + '.png'):
-        reference = Image.open('./test/references/' + name + '.png')
+    base_path = Path(__file__).resolve().absolute().parent
+    references = base_path / 'references'
+    png = f'{name}.png'
+
+    if os.path.isfile(references / png):
+        reference = Image.open(references / png)
     else:
         if sys.platform == 'win32':
-            if os.path.isfile('./test/references/win32/' + name + '.png'):
-                reference = Image.open('./test/references/win32/' + name + '.png')
+            if os.path.isfile(references / 'win32' / png):
+                reference = Image.open(references / 'win32' / png)
         else:
-            if os.path.isfile('./test/references/linux/' + name + '.png'):
-                reference = Image.open('./test/references/linux/' + name + '.png')
+            if os.path.isfile(references / 'linux' / png):
+                reference = Image.open(references / 'linux' / png)
 
     if reference is None:
         reference = Image.new("RGBA", result.size)
@@ -50,11 +56,12 @@ def compare(name, only_canvas=True, threshold=0.2, camera_factor=1.0):
     mismatch = pixelmatch(result, reference, img_diff, threshold=threshold, includeAA=True)
 
     if mismatch >= threshold:
-        with open('./test/results/' + name + '.k3d', 'wb') as f:
+        results = base_path / 'results'
+        with open(results / f'{name}.k3d', 'wb') as f:
             f.write(pytest.plot.get_binary_snapshot(1))
-        result.save('./test/results/' + name + '.png')
-        reference.save('./test/results/' + name + '_reference.png')
-        img_diff.save('./test/results/' + name + '_diff.png')
+        result.save(results / f'{name}.png')
+        reference.save(results / f'{name}_reference.png')
+        img_diff.save(results / f'{name}_diff.png')
 
         print(name, mismatch, threshold)
     assert mismatch < threshold
