@@ -1,6 +1,7 @@
 import inspect
 import os
 import sys
+from pathlib import Path
 
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parent_dir = os.path.dirname(current_dir)
@@ -19,8 +20,7 @@ def pytest_configure(config):
     This hook is called for every plugin and initial conftest
     file after command line options have been parsed.
     """
-    process = subprocess.Popen('webpack', cwd=os.path.abspath('./../js/'), shell=True)
-    process.wait()
+    subprocess.check_call('webpack', cwd=Path(parent_dir) / '..' / 'js', shell=True)
 
 
 def pytest_sessionstart(session):
