@@ -1,7 +1,6 @@
 import inspect
 import os
 import sys
-from pathlib import Path
 
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parent_dir = os.path.dirname(current_dir)
@@ -12,15 +11,6 @@ import k3d
 from k3d.headless import k3d_remote, get_headless_driver
 import subprocess
 import os
-
-
-def pytest_configure(config):
-    """
-    Allows plugins and conftest files to perform initial configuration.
-    This hook is called for every plugin and initial conftest
-    file after command line options have been parsed.
-    """
-    subprocess.check_call('webpack', cwd=Path(parent_dir) / '..' / 'js', shell=True)
 
 
 def pytest_sessionstart(session):
