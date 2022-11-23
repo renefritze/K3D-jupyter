@@ -6,6 +6,7 @@ import math
 import vtk
 from vtk.util import numpy_support
 
+THIS_DIR = Path(__file__).resolve().absolute().parent
 
 def test_texture():
     prepare()
@@ -18,7 +19,7 @@ def test_texture():
         0.0, 0.0, 0.0, 1.0
     ]
 
-    texture = k3d.texture(open('./test/assets/texture.png', 'br').read(), 'png',
+    texture = k3d.texture(open(THIS_DIR / 'assets/texture.png', 'br').read(), 'png',
                           rotation=[math.radians(90), 1, 0, 0],
                           model_matrix=model_matrix,
                           name='Photo')
@@ -27,7 +28,7 @@ def test_texture():
 
     compare('texture')
 
-    texture.binary = open('./test/assets/mandelbrot.jpg', 'br').read()
+    texture.binary = open(THIS_DIR / 'assets/mandelbrot.jpg', 'br').read()
     texture.name = 'Fractal'
 
     compare('texture_dynamic_change')
@@ -37,7 +38,7 @@ def test_texture_attribute():
     prepare()
 
     reader = vtk.vtkXMLImageDataReader()
-    reader.SetFileName('./test/assets/volume.vti')
+    reader.SetFileName(THIS_DIR / 'assets/volume.vti')
     reader.Update()
     vti = reader.GetOutput()
 
