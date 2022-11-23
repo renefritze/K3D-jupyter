@@ -2,6 +2,7 @@
 import itertools
 import os
 import zlib
+from pathlib import Path
 from urllib.request import urlopen
 
 import numpy as np
@@ -172,13 +173,15 @@ def download(url):
     """
     basename = os.path.basename(url)
 
-    if os.path.exists(basename):
-        return basename
+    filepath = Path(__file__).resolve().absolute().parent / basename
 
-    with urlopen(url) as response, open(basename, "wb") as output:
+    if filepath.is_file():
+        return filepath
+
+    with urlopen(url) as response, open(filepath, "wb") as output:
         output.write(response.read())
 
-    return basename
+    return filepath
 
 
 def minmax(arr):

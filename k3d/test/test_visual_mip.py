@@ -5,12 +5,13 @@ from .plot_compare import *
 import vtk
 from vtk.util import numpy_support
 
+THIS_DIR = Path(__file__).resolve().absolute().parent
 
 def test_mip():
     prepare()
 
     reader = vtk.vtkXMLImageDataReader()
-    reader.SetFileName('./test/assets/volume.vti')
+    reader.SetFileName(THIS_DIR / 'assets/volume.vti')
     reader.Update()
     vti = reader.GetOutput()
 
@@ -30,7 +31,7 @@ def test_mip_opacity_function():
     prepare()
 
     reader = vtk.vtkXMLImageDataReader()
-    reader.SetFileName('./test/assets/volume.vti')
+    reader.SetFileName(THIS_DIR / 'assets/volume.vti')
     reader.Update()
     vti = reader.GetOutput()
 
@@ -49,12 +50,12 @@ def test_mip_mask():
     prepare()
 
     reader = vtk.vtkMetaImageReader()
-    reader.SetFileName('./test/assets/heart.mhd')
+    reader.SetFileName(THIS_DIR / 'assets/heart.mhd')
     reader.Update()
     vti = reader.GetOutput()
 
     reader = vtk.vtkMetaImageReader()
-    reader.SetFileName('./test/assets/mask.mhd')
+    reader.SetFileName(THIS_DIR / 'assets/mask.mhd')
     reader.Update()
     mask = reader.GetOutput()
 

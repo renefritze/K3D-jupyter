@@ -6,6 +6,8 @@ from k3d.helpers import download
 import vtk
 from vtk.util import numpy_support
 
+THIS_DIR = Path(__file__).resolve().absolute().parent
+
 vertices = [
     -10, 0, -1,
     10, 0, -1,
@@ -183,7 +185,7 @@ def test_mesh_volume_data():
     poly = reader.GetOutput()
 
     reader = vtk.vtkXMLImageDataReader()
-    reader.SetFileName('./test/assets/volume.vti')
+    reader.SetFileName(THIS_DIR / 'assets/volume.vti')
     reader.Update()
     vti = reader.GetOutput()
 
