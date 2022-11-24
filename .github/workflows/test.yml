@@ -61,7 +61,6 @@ jobs:
   examples:
     name: Run pytest on notebook examples
     runs-on: ubuntu-22.04
-
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
@@ -80,3 +79,13 @@ jobs:
           npm install
       - name: Run tests
         run: cd k3d && python -m pytest -k "examples"
+
+  try_binder:
+    name: Build binder environment
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v3
+    - name: repo2docker Action
+      uses: jupyterhub/repo2docker-action@0.2
+      with:
+        NO_PUSH: 1
