@@ -89,3 +89,5 @@ jobs:
       uses: jupyterhub/repo2docker-action@0.2
       with:
         NO_PUSH: 1
+        # defaulted image name is invalid
+        IMAGE_NAME: k3djupyter/binder
